@@ -37,7 +37,9 @@ import massive.haxe.log.Log;
 
 import massive.sys.io.File;
 import massive.sys.cmd.Console;
+#if neko
 import neko.vm.Thread;
+#end
 import Sys;
 import Sys;
 import sys.io.Process;

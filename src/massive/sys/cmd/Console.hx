@@ -33,7 +33,9 @@ import massive.sys.io.File;
 import massive.sys.io.FileException;
 import massive.sys.io.FileSys;
 import sys.FileSystem;
+#if neko
 import neko.vm.Thread;
+#end
 import Sys;
 import massive.haxe.log.Log;
 import sys.io.Process;
